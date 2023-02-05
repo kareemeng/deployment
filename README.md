@@ -16,14 +16,12 @@ The project will also include writing documentation and runbooks covering the op
 
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
-
-
 ### Dependencies
 
 ```
-- Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
+- Node v14.15.1 or more recent. While older versions can work it is advisable to keep node to latest LTS version
 
-- npm 6.14.8 (LTS) or more recent, Yarn can work but was not tested for this project
+- npm 6.14.8 or more recent, Yarn can work but was not tested for this project
 
 - AWS CLI v2, v1 can work but was not tested for this project
 
@@ -37,19 +35,19 @@ This application is provided to you as an alternative starter project if you do 
 
 Provision the necessary AWS services needed for running the application:
 
-1. In AWS, provision a publicly available RDS database running Postgres. <Place holder for link to classroom article>
-1. In AWS, provision a s3 bucket for hosting the uploaded files. <Place holder for link to classroom article>
-1. Export the ENV variables needed or use a package like [dotenv](https://www.npmjs.com/package/dotenv)/.
-1. From the root of the repo, navigate udagram-api folder `cd starter/udagram-api` to install the node_modules `npm install`. After installation is done start the api in dev mode with `npm run dev`.
-1. Without closing the terminal in step 1, navigate to the udagram-frontend `cd starter/udagram-frontend` to intall the node_modules `npm install`. After installation is done start the api in dev mode with `npm run start`.
+1. In AWS, provision a publicly available RDS database running Postgres. `<Place holder for link to classroom article>`
+2. In AWS, provision a s3 bucket for hosting the uploaded files. `<Place holder for link to classroom article>`
+3. Export the ENV variables needed or use a package like [dotenv](https://www.npmjs.com/package/dotenv)/.
+4. From the root of the repo, navigate udagram-api folder `cd starter/udagram-api` to install the node_modules `npm install`. After installation is done start the api in dev mode with `npm run dev`.
+5. Without closing the terminal in step 1, navigate to the udagram-frontend `cd starter/udagram-frontend` to intall the node_modules `npm install`. After installation is done start the api in dev mode with `npm run start`.
 
 ## Testing
 
 This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
 
 1. `cd starter/udagram-frontend`
-1. `npm run test`
-1. `npm run e2e`
+2. `npm run test`
+3. `npm run e2e`
 
 There are no Unit test on the back-end
 
@@ -62,30 +60,32 @@ Unit tests are using the Jasmine Framework.
 The e2e tests are using Protractor and Jasmine.
 
 ## all set up and connection and port in the .env file
+
 - {
 - POSTGRES_USERNAME=postgres
 - POSTGRES_PASSWORD=postgres
-- POSTGRES_HOST=database-2.cm5e4f3emg7m.us-east-1.rds.amazonaws.com
+- POSTGRES_HOST=database-1.chl3c4yf8djv.us-east-1.rds.amazonaws.com
 - POSTGRES_DB=postgres
-- AWS_BUCKET=arn:aws:s3:::udagram-omar
+- AWS_BUCKET=arn:aws:s3:::kareem-udagram
 - AWS_REGION=us-east-1
 - AWS_PROFILE=default
 - JWT_SECRET=mysecretstring
-- URL=http://Udagramomar.us-east-1.elasticbeanstalk.com
-- Access_key_ID=AKIAUBFDVF4Z7K64COVV
-- Secret_access_key=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
-}
+- URL=Kareem-env.eba-m9323vjt.us-east-1.elasticbeanstalk.com
+- Access_key_ID=AKIAVMLNH3NVTZOZQUVT
+- Secret_access_key=Iqln/ppzdPzd1S6QNpbEC8alNMdMgPoZMBNSHfTJ
+  }
 
 ## Provide the link to your hosted working Front-End Application
-- http://udagram-omar.s3-website-us-east-1.amazonaws.com
 
+- http://kareem-udagram.s3-website-us-east-1.amazonaws.com
 
 ## the scripts as shown below
 
 - 2-"lint" :to use linter
-- 4-"start" : to start the app using nodemon
+- 4-"start" : to start the app using n**s**demon
 
-## Diagrams 
+## Diagrams
+
 - Diagrams included in the ./Diagrams
 
 ## Built With
