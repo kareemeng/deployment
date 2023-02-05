@@ -67,7 +67,7 @@ The e2e tests are using Protractor and Jasmine.
 - POSTGRES_HOST=database-1.chl3c4yf8djv.us-east-1.rds.amazonaws.com
 - POSTGRES_DB=postgres
 - AWS_BUCKET=arn:aws:s3:::kareem-udagram
-- AWS_REGION=us-east-1
+- AWS_DEFAULT_REGION=us-east-1
 - AWS_PROFILE=default
 - JWT_SECRET=mysecretstring
 - URL=Kareem-env.eba-m9323vjt.us-east-1.elasticbeanstalk.com
