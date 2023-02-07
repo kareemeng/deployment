@@ -66,7 +66,7 @@ The e2e tests are using Protractor and Jasmine.
 - POSTGRES_PASSWORD=postgres
 - POSTGRES_HOST=database-1.chl3c4yf8djv.us-east-1.rds.amazonaws.com
 - POSTGRES_DB=postgres
-- AWS_BUCKET=arn:aws:s3:::kareem-udagram
+- AWS_BUCKET=arn:aws:s3:::kareem1-udagram
 - AWS_DEFAULT_REGION=us-east-1
 - AWS_PROFILE=default
 - JWT_SECRET=mysecretstring
@@ -77,7 +77,7 @@ The e2e tests are using Protractor and Jasmine.
 
 ## Provide the link to your hosted working Front-End Application
 
-- http://kareem-udagram.s3-website-us-east-1.amazonaws.com
+- http://kareem1-udagram.s3-website-us-east-1.amazonaws.com
 
 ## the scripts as shown below
 
