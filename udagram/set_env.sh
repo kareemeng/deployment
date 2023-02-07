@@ -8,6 +8,6 @@ export AWS_BUCKET=arn:aws:s3:::kareem1-udagram
 export AWS_DEFAULT_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=mysecretstring
-export URL=Kareem-env.eba-m9323vjt.us-east-1.elasticbeanstalk.com
+export URL=kareem-env-1.eba-aucfdqmp.us-east-1.elasticbeanstalk.com/
 export AWS_ACCESS_KEY_ID=AKIAVMLNH3NVTXTETHSF
 export AWS_SECRET_ACCESS_KEY=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
