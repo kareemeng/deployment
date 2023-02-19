@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  appName: 'Udagram',
-  apiHost: 'kareem-env1.eba-pv6hup3t.us-east-1.elasticbeanstalk.comapi/v0',
+  appName: `Udagram`,
+  apiHost: `${process.env.URL}/api/v0`,
 };
 
 /*
