@@ -70,7 +70,7 @@ The e2e tests are using Protractor and Jasmine.
 - AWS_DEFAULT_REGION=us-east-1
 - AWS_PROFILE=default
 - JWT_SECRET=mysecretstring
-- URL=kareem-env-1.eba-aucfdqmp.us-east-1.elasticbeanstalk.com/
+- URL=kareem-env1.eba-pv6hup3t.us-east-1.elasticbeanstalk.com
 - AWS_ACCESS_KEY_ID=AKIAVMLNH3NVTNMUE67Z
 - AWS_SECRET_ACCESS_KEY=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
   }
