@@ -71,8 +71,8 @@ The e2e tests are using Protractor and Jasmine.
 - AWS_PROFILE=default
 - JWT_SECRET=mysecretstring
 - URL=kareem-env-1.eba-aucfdqmp.us-east-1.elasticbeanstalk.com/
-- AWS_ACCESS_KEY_ID=AKIAVMLNH3NVTXTETHSF
-- AWS_SECRET_ACCESS_KEY=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
+- AWS_ACCESS_KEY_ID=AKIAVMLNH3NVTNMUE67Z
+- AWS_SECRET_ACCESS_KEY=TY352LwzHBwu07qZZivXiKbLDnvOPOE6zO/5aZI6
   }
 
 ## Provide the link to your hosted working Front-End Application
