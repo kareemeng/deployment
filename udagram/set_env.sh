@@ -9,5 +9,5 @@ export AWS_DEFAULT_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=mysecretstring
 export URL=Kareem-env-1.eba-w8bqrka7.us-east-1.elasticbeanstalk.com
-export AWS_ACCESS_KEY_ID=AKIAVMLNH3NVTNMUE67Z
-export AWS_SECRET_ACCESS_KEY=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
+export AWS_ACCESS_KEY_ID=AKIAVMLNH3NVW7PGSF47
+export AWS_SECRET_ACCESS_KEY=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
